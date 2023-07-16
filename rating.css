@@ -1,0 +1,86 @@
+body{
+    margin: 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background-color: #020d0e8f;
+
+}
+/*  this container class is common for both the thankyou page and the welcome page some
+ properties are overridden with the help of id selcetor for more info scroll down look for #thank  */
+.container{
+    background-color:#0d131a5d;
+    margin: auto auto;
+    max-width: 300px;
+    height: 350px;
+    text-align: left;
+    border: 0px solid ;
+    border-radius: 5%;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+/*  this is class of star image on top left corner noticed it hunn. */
+.icon{
+    background-color: aliceblue;
+    margin: 5px;
+    padding: 3px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+/* this is the common class for all the 5 buttons to select stars */
+.btn{
+    font-size: 18px;
+    margin: 0 12px;
+    padding: 5px 8px;
+    border: none;
+    border-radius: 50px;
+    background-color:#0d131a5d ;
+    color: white;
+}
+ .attribution{ 
+    position: absolute;
+    bottom: 30px;
+    color: rgb(255, 255, 255);
+}
+/*  these next two classes help javascript for providin functionality */
+.hide{
+    display: none;
+}
+.selected{
+    background-color: rgb(236, 130, 91);
+}
+
+/*  ids start from here  */
+/*  this is the submit button */
+#submit{
+    display: inline-block;
+    margin: 30px 2px; 
+    text-align: center;
+    font-size: 22px;
+    width: 280px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(236, 130, 91);
+    color: white;
+}
+/*  this is the id of thankyou page to give it a different look */
+#thank{
+    text-align: center;
+    padding-left: 0;
+    padding-bottom: 20px;
+}
+
+/* this is the id of thankyou page paragraph  */
+#selected{
+    display: inline-block;
+    text-align: center;
+    width: 180px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    background-color:#020d0e8f ;
+    color: rgb(236, 130, 91);
+}
